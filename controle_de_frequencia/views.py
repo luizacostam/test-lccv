@@ -18,7 +18,7 @@ class ProfessorAPIView(views.APIView):
             email=data.get("email"),
             telefone=data.get("telefone")
         )
- 
+        return Response(status=status.HTTP_201_CREATED)
     def get(self, request):
         data = []
         for prof in Professor.objects.all():
