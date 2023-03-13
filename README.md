@@ -8,7 +8,9 @@ POST: /professor
     "email": "luiza@gmail.com",
     "telefone": "82999999999"
 }
+
 GET: /professor
+
 PUT: /professor?id=<id>
 {
     "nome": "luizaa",
@@ -18,7 +20,9 @@ PUT: /professor?id=<id>
     "email": "luiza@gmail.com",
     "telefone": "82999999999"
 }
+
 DELETE: /professor?id=<id>
+
 
 POST: /disciplinas
 {
@@ -29,7 +33,9 @@ POST: /disciplinas
     "carga_horaria" = "20",
     "ementa" = "esta é a ementa"
 }
+
 GET: /disciplinas
+
 PUT: /disciplinas?id=<id>
 {
     "id_professor" = 1,
@@ -38,7 +44,9 @@ PUT: /disciplinas?id=<id>
     "carga_horaria" = "20",
     "ementa" = "esta é a ementa"
 }
+
 DELETE: /disciplinas?id=<id>
+
 
 POST: /alunos
 {
@@ -50,7 +58,9 @@ POST: /alunos
     "telefone" = "(82)99345-9029",
     "email" = "luiza@gmail.com"
 }
+
 GET: /alunos
+
 PUT: /alunos?id=<id>
 {
     "nome" = "luiza",
@@ -60,4 +70,5 @@ PUT: /alunos?id=<id>
     "telefone" = "(82)99345-9029",
     "email" = "luiza@gmail.com"
 }
+
 DELETE :/alunos?id=<id>
